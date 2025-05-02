@@ -4,8 +4,9 @@ nav {
 }
 
 a {
-  color: rgb(12, 12, 12);
-  font-size: 1.2rem;
+  color: black;
+  font-size: 1.3rem;
   text-decoration: none;
   margin: 1.8rem;
+  background-color: #fec619;
 }

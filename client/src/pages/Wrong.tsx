@@ -1,5 +1,12 @@
-import quiz from "../assets/images/Quiz.png";
+import erreur from "../assets/images/Erreur404.png";
+import "../assets/styles/wrong.css";
 
 export default function Wrong() {
-  return <img src={quiz} alt="Page erreur" />;
+  return (
+    <>
+      <div className="wrong">
+        <img src={erreur} alt="Page erreur" className="Erreur" />
+      </div>
+    </>
+  );
 }
