@@ -7,13 +7,15 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 
 // Import the main app component
 import Famille from "./pages/Famille";
-import Homepage from "./pages/Homepage";
 import Resultats from "./pages/Resultats";
 import Wrong from "./pages/Wrong";
 
+import App from "./App";
+import Accueil from "./pages/Accueil";
 import Animaux from "./pages/Animaux";
 import Disney from "./pages/Disney";
 import Educatif from "./pages/Educatif";
+import Quiz from "./pages/Quiz";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -27,9 +29,17 @@ import Educatif from "./pages/Educatif";
 // You can add more routes as you build out your app!
 const router = createBrowserRouter([
   {
-    path: "/", // The root path
-    element: <Homepage />, // Renders the App component for the home page
+    // The root path
+    element: <App />, // Renders the App component for the home page
     children: [
+      {
+        path: "/",
+        element: <Accueil />,
+      },
+      {
+        path: "/quiz",
+        element: <Quiz />,
+      },
       {
         path: "/animaux",
         element: <Animaux />,
@@ -71,7 +81,7 @@ if (rootElement == null) {
 createRoot(rootElement).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
+  </StrictMode>,
 );
 
 /**

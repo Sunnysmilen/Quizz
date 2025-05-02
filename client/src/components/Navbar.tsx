@@ -6,8 +6,9 @@ export default function Navbar() {
   return (
     <>
       <nav>
-        <NavLink to={"../pages/Homepage.tsx"}>Homepage</NavLink>
-        <NavLink to={"../pages/Resultats.tsx"}>Resultats</NavLink>
+        <NavLink to="/">Accueil</NavLink>
+        <NavLink to="/quiz">Quiz</NavLink>
+        <NavLink to="/Resultats">Resultats</NavLink>
       </nav>
     </>
   );
