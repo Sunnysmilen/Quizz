@@ -6,7 +6,14 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 /* ************************************************************************* */
 
 // Import the main app component
-import App from "./App";
+import Famille from "./pages/Famille";
+import Homepage from "./pages/Homepage";
+import Resultats from "./pages/Resultats";
+import Wrong from "./pages/Wrong";
+
+import Animaux from "./pages/Animaux";
+import Disney from "./pages/Disney";
+import Educatif from "./pages/Educatif";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -21,7 +28,33 @@ import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/", // The root path
-    element: <App />, // Renders the App component for the home page
+    element: <Homepage />, // Renders the App component for the home page
+    children: [
+      {
+        path: "/animaux",
+        element: <Animaux />,
+      },
+      {
+        path: "/disney",
+        element: <Disney />,
+      },
+      {
+        path: "/famille",
+        element: <Famille />,
+      },
+      {
+        path: "/educatif",
+        element: <Educatif />,
+      },
+      {
+        path: "/resultats",
+        element: <Resultats />,
+      },
+    ],
+  },
+  {
+    path: "*",
+    element: <Wrong />,
   },
   // Try adding a new route! For example, "/about" with an About component
 ]);
@@ -38,7 +71,7 @@ if (rootElement == null) {
 createRoot(rootElement).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );
 
 /**
