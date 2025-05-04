@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Comment s'appelle la maman de ta maman ?",
+    "options": [
+      { "text": "Grand-mère", "correct": true },
+      { "text": "Maman", "correct": false },
+      { "text": "Tante", "correct": false },
+      { "text": "Soeur", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Le frère de ton père est ton…",
+    "options": [
+      { "text": "Oncle", "correct": true },
+      { "text": "Cousin", "correct": false },
+      { "text": "Grand-père", "correct": false },
+      { "text": "Frère", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Comment s'appelle la fille de ta tante ?",
+    "options": [
+      { "text": "Ma cousine", "correct": true },
+      { "text": "Ma nièce", "correct": false },
+      { "text": "Ma grand-mère", "correct": false },
+      { "text": "Ma sœur", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Le fils de mes parents est…",
+    "options": [
+      { "text": "Mon frère", "correct": true },
+      { "text": "Mon oncle", "correct": false },
+      { "text": "Mon père", "correct": false },
+      { "text": "Mon cousin", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Qui est la femme de ton papa ?",
+    "options": [
+      { "text": "Ma maman", "correct": true },
+      { "text": "Ma cousine", "correct": false },
+      { "text": "Ma sœur", "correct": false },
+      { "text": "Ma tante", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Comment appelle-t-on les enfants de ton frère ?",
+    "options": [
+      { "text": "Mes neveux et nièces", "correct": true },
+      { "text": "Mes parents", "correct": false },
+      { "text": "Mes enfants", "correct": false },
+      { "text": "Mes cousins", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Le père de ta mère est ton…",
+    "options": [
+      { "text": "Grand-père", "correct": true },
+      { "text": "Papa", "correct": false },
+      { "text": "Cousin", "correct": false },
+      { "text": "Oncle", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "La sœur de ton père est ta…",
+    "options": [
+      { "text": "Tante", "correct": true },
+      { "text": "Grand-mère", "correct": false },
+      { "text": "Sœur", "correct": false },
+      { "text": " Cousine", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Comment s'appelle la fille de tes parents ?",
+    "options": [
+      { "text": " Ma sœur", "correct": true },
+      { "text": "Ma nièce", "correct": false },
+      { "text": "Ma tante", "correct": false },
+      { "text": "Ma cousine", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Qui est le mari de ta tante ?",
+    "options": [
+      { "text": "Mon oncle", "correct": true },
+      { "text": "Mon grand-père", "correct": false },
+      { "text": "Mon frère", "correct": false },
+      { "text": "Mon cousin", "correct": false }
+    ]
+  }
+]

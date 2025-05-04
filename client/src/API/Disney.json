@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Qui peut créer de la glace avec ses mains ?",
+    "options": [
+      { "text": "Elsa", "correct": true },
+      { "text": "Anna", "correct": false },
+      { "text": "Raiponce", "correct": false },
+      { "text": "Cendrillon", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Qui part en voyage en mer pour sauver son île ?",
+    "options": [
+      { "text": "Vaiana", "correct": true },
+      { "text": "Ariel", "correct": false },
+      { "text": "Pocahontas", "correct": false },
+      { "text": "Tiana", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Qui porte de grandes oreilles rondes et un short rouge ?",
+    "options": [
+      { "text": "Mickey", "correct": true },
+      { "text": "Dingo", "correct": false },
+      { "text": "Pluto", "correct": false },
+      { "text": "Donald", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Quelle princesse Disney a une chevelure magique ?",
+    "options": [
+      { "text": "Raiponce", "correct": true },
+      { "text": "Cendrillon", "correct": false },
+      { "text": "Ariel", "correct": false },
+      { "text": "Belle", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Comment s'appelle le père de Simba ?",
+    "options": [
+      { "text": "Mufasa", "correct": true },
+      { "text": "Scar", "correct": false },
+      { "text": "Zazu", "correct": false },
+      { "text": "Rafiki", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Quel est le nom du poisson ami d’Ariel dans La Petite Sirène ?",
+    "options": [
+      { "text": "Flounder", "correct": true },
+      { "text": "Nemo", "correct": false },
+      { "text": "Dory", "correct": false },
+      { "text": "Crush", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Que devient Jafar à la fin du film ?",
+    "options": [
+      { "text": "Génie", "correct": true },
+      { "text": "Prisonnier", "correct": false },
+      { "text": "Marchand", "correct": false },
+      { "text": "Sultan", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Dans quel film Disney trouve-t-on le personnage Olaf ?",
+    "options": [
+      { "text": "La Reine des Neiges", "correct": true },
+      { "text": "Vaiana", "correct": false },
+      { "text": "Rebelle", "correct": false },
+      { "text": "En Avant", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Quelle chanson emblématique vient du film Le Livre de la Jungle ?",
+    "options": [
+      { "text": "Il en faut peut pour être heureux", "correct": true },
+      { "text": "Libérée,Délivrée", "correct": false },
+      { "text": "Ce rêve bleu", "correct": false },
+      { "text": "Sous l'océan", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": " Quel est le nom du personnage qui accompagne Peter Pan au Pays Imaginaire ?",
+    "options": [
+      { "text": "Clochette", "correct": true },
+      { "text": "Tigrou", "correct": false },
+      { "text": "Wendy", "correct": false },
+      { "text": "Blanche-Neige", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Quel personnage de Disney est connu pour sa phrase: Ohana signifie famille, et la famille ne nous laisse jamais tomber ?",
+    "options": [
+      { "text": "Lilo", "correct": true },
+      { "text": "Stitch", "correct": false },
+      { "text": "Mufasa", "correct": false },
+      { "text": "Baloo", "correct": false }
+    ]
+  }
+]
