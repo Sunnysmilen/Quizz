@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Quel animal fait MEUH ?",
+    "options": [
+      { "text": "Vache", "correct": true },
+      { "text": "Mouton", "correct": false },
+      { "text": "Chien", "correct": false },
+      { "text": "Chat", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Lequel de ces animaux vit dans l’eau ?",
+    "options": [
+      { "text": "Poisson", "correct": true },
+      { "text": "Chien", "correct": false },
+      { "text": "Poule", "correct": false },
+      { "text": "Chat", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Quel animal a une longue trompe ?",
+    "options": [
+      { "text": "Elephant", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Je grimpe aux arbres, je mange des bananes, et je fais des grimaces rigolotes. Qui suis-je ?",
+    "options": [
+      { "text": "Singe", "correct": true },
+      { "text": "Vache", "correct": false },
+      { "text": "Chat", "correct": true },
+      { "text": "Cochon", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": " Je suis très grand, j’ai un long cou pour manger les feuilles dans les arbres. Qui suis-je ?",
+    "options": [
+      { "text": "Girafe", "correct": true },
+      { "text": "Oiseau", "correct": false },
+      { "text": "Vache", "correct": false },
+      { "text": "Chien", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Lequel de ces animaux peut voler ?",
+    "options": [
+      { "text": "Oiseau", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Quel animal a des rayures noires et blanches ?",
+    "options": [
+      { "text": "Zèbre", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Quel animal dit : coin coin ?",
+    "options": [
+      { "text": "Cochon", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Je suis tout doux, j’aime les câlins, je dis : miaou. Qui suis-je ?",
+    "options": [
+      { "text": "Chat", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "J’ai de grandes oreilles, je saute partout, et j’adore les carottes. Qui suis-je ?",
+    "options": [
+      { "text": "Lapin", "correct": true },
+      { "text": "Girafe", "correct": false },
+      { "text": "Tigre", "correct": false },
+      { "text": "Vache", "correct": false }
+    ]
+  }
+]
