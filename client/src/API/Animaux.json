@@ -73,7 +73,7 @@
     "id": 8,
     "question": "Quel animal dit : coin coin ?",
     "options": [
-      { "text": "Cochon", "correct": true },
+      { "text": "Canard", "correct": true },
       { "text": "Girafe", "correct": false },
       { "text": "Tigre", "correct": false },
       { "text": "Vache", "correct": false }
